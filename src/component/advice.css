@@ -1,0 +1,21 @@
+.advice {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s;
+    /* Safari */
+    transition: width 2s;
+}
+
+.advice:hover {
+    width: 300px;
+}
+
+.advice {
+    background-color: transparent;
+    box-shadow: 14px 13px 16px 0px rgba(0, 0, 0, 0.75);
+}
+
+h2 {
+    color: aliceblue;
+}

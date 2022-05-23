@@ -1,0 +1,19 @@
+footer {}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 2em;
+}

@@ -1,0 +1,20 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+.Header h1 {
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px #f3e3e3;
+    background-image: linear-gradient(to right, #c5c0d1 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 12px;
+    padding: 5px;
+    box-shadow: 14px 13px 16px 0px rgba(0, 0, 0, 0.75);
+}
