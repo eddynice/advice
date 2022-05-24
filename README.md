@@ -1,6 +1,6 @@
 
 
 you can check it out 
-hhtp://wwww.advicme.netlify.app
+http://wwww.advicme.netlify.app
 
 
