@@ -1,6 +1,6 @@
 
 
 you can check it out 
-https://wwww.advicme.netlify.app
+wwww.advicme.netlify.app
 
 
