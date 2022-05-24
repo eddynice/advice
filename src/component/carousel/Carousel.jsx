@@ -1,8 +1,8 @@
 import {useState} from "react";
 import {Carousel} from "react-bootstrap"
-import pic from "../pic/pic.png";
-import pic1 from "../pic/pic1.png"
-import pic2 from "../pic/pic2.png"
+import pic from "../../pic/pic.png";
+import pic1 from "../../pic/pic1.png"
+import pic2 from "../../pic/pic2.png"
 import "./caro.css"
 
 function ControlledCarousel() {
@@ -20,9 +20,9 @@ function ControlledCarousel() {
             src={pic}
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <Carousel.Caption className="cautio">
+            <h3 >ARE YOU DEPRESS</h3>
+            <p>there is always solution to every problem</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -32,9 +32,9 @@ function ControlledCarousel() {
             alt="Second slide"
           />
   
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <Carousel.Caption className="cautio">
+            <h3>DO YOU NEED ADVICE</h3>
+            <p>today advise might be the answer you have be looking for!</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -44,10 +44,10 @@ function ControlledCarousel() {
             alt="Third slide"
           />
   
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
+          <Carousel.Caption className="cautio">
+            <h3>WE ARE HERE TO HELP YOU</h3>
             <p>
-              apasaslosllelerisque nisl consectetur.
+              Advise room we always be at your service.
             </p>
           </Carousel.Caption>
         </Carousel.Item>

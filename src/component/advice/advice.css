@@ -1,10 +1,12 @@
 .advice {
     width: 100px;
     height: 100px;
-    background: red;
+    background-color: transparent;
     -webkit-transition: width 2s;
     /* Safari */
     transition: width 2s;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .advice:hover {
@@ -12,7 +14,6 @@
 }
 
 .advice {
-    background-color: transparent;
     box-shadow: 14px 13px 16px 0px rgba(0, 0, 0, 0.75);
 }
 

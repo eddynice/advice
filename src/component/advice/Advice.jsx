@@ -24,7 +24,7 @@ import "./advice.css"
   
     useEffect(() => {
       if (isLoading) {
-        setLoading(true)
+        
           setLoading(false);
       
       }
@@ -41,7 +41,7 @@ import "./advice.css"
      
        <Button variant="secondary" size="md"
         disabled={isLoading}
-        onClick={!isLoading ? handleClick : null}
+        onClick={!isLoading ? handleClick : isLoading}
       >
         {isLoading ? 'Loading…' : 'Get Advice'}
       </Button>
